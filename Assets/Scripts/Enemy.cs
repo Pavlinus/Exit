@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void Update () {
-		Rotate ();
+		//Rotate ();
 	}
 
 	/// <summary>

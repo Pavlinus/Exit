@@ -79,10 +79,10 @@ public class BoardManager : MonoBehaviour {
 
 		for (int i = 0; i < eneimesNum; i++) {
 			bool posNotFound = true;
-			int rand = Random.Range (0, 360);
+			//int rand = Random.Range (0, 360);
 
 			// Start rotation of an enemy
-			Quaternion initialRotation = Quaternion.Euler (0f, rand, 0f);
+			Quaternion initialRotation = Quaternion.Euler (0f, -180f, 0f);
 
 			while (posNotFound) {
 				position = RandomPosition ();
